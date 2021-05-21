@@ -453,7 +453,7 @@
             @foreach ($objectLignePersonnages as $objectLignePersonnage)
             @if ( $objectLignePersonnage->getClasse() === "Guerrier")
             <tr>
-                <td class="pseudo" style="background : #A52A2A;color : white">{{$objectLignePersonnage->getPseudo()}}</td>
+                <td class="pseudo" >{{$objectLignePersonnage->getPseudo()}}</td>
                 <td style="background : #A52A2A;color : white">{{$objectLignePersonnage->getRace()}}</td>
                 <td style="background : #A52A2A;color : white">{{$objectLignePersonnage->getPointDeVie()}}</td>
                 <td style="background : #A52A2A;color : white">{{$objectLignePersonnage->getArmure()}}</td>
@@ -468,7 +468,7 @@
             @elseif ( $objectLignePersonnage->getClasse() === "Mage")
 
             <tr>
-                <td class="pseudo" style="background : #2BA6A6;color : white">{{$objectLignePersonnage->getPseudo()}}</td>
+                <td class="pseudo" >{{$objectLignePersonnage->getPseudo()}}</td>
                 <td style="background : #2BA6A6;color : white">{{$objectLignePersonnage->getRace()}}</td>
                 <td style="background : #2BA6A6;color : white">{{$objectLignePersonnage->getPointDeVie()}}</td>
                 <td style="background : #2BA6A6;color : white">{{$objectLignePersonnage->getArmure()}}</td>
@@ -497,7 +497,7 @@
             </tr>
             @else
             <tr>
-                <td class="pseudo" style="background : #32CD32;color : white">{{$objectLignePersonnage->getPseudo()}}</td>
+                <td class="pseudo" >{{$objectLignePersonnage->getPseudo()}}</td>
                 <td style="background : #32CD32;color : white">{{$objectLignePersonnage->getRace()}}</td>
                 <td style="background : #32CD32;color : white">{{$objectLignePersonnage->getPointDeVie()}}</td>
                 <td style="background : #32CD32;color : white">{{$objectLignePersonnage->getArmure()}}</td>
